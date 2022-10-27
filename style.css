@@ -82,6 +82,10 @@ input {
     padding: 0 8px;
 } 
 
+ input:focus {
+    box-shadow: 3px 3px 3px #c2c2c2;
+} 
+
 ul {
     width: 100%;
 }
@@ -106,6 +110,16 @@ ul li > * {
 
 label {
     font-size: 0.7rem;
+}
+
+.error {
+    border: red solid;
+}
+
+.error-msg {
+    color: red;
+    font-size: 0.6rem;
+    position: absolute;
 }
 
 /* BUTTON STYLING */
