@@ -33,7 +33,6 @@ body {
 .login-section,
 .button-section,
 form {
-    /* background-color: green; */
     padding-left: 50px;
     padding-right: 200px;
 }
@@ -41,6 +40,15 @@ form {
 .info-banner {
     padding-top: 90px;
     padding-bottom: 40px;
+}
+
+#photo-credit {
+    color: white;
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 60vh; 
+    text-align: center;
 }
 
 /* LOGO */

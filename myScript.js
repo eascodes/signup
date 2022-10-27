@@ -20,6 +20,10 @@ function checkPwd() {
             pwd.removeChild(errorMsg);
             pwdBox1.classList.remove("error");
             pwdBox2.classList.remove("error");
+        } else {
+            pwdBox1.classList.add("error");
+            pwdBox2.classList.add("error");
+            pwd.appendChild(errorMsg);
         }
     }
 }
