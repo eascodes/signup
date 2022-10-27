@@ -75,18 +75,35 @@ form {
 
 input {
     box-sizing: border-box; 
+    min-width: 150px;
+    border: #E5E7EB solid;
+    border-radius: 4px;
 } 
 
 ul {
     width: 100%;
 }
+
 ul li {
-    width: 49%;
+    width: 40%;
     display: inline-block;
+    padding-top: 15px;
+}
+
+li:nth-child(odd) {
+    padding-right: 50px;
 }
 
 ul li > * {
     width: 100%;
+}
+
+.input-area {
+    padding: 20px 0;
+}
+
+label {
+    font-size: 0.7rem;
 }
 
 /* BUTTON STYLING */
