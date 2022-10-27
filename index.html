@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yrsa:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="left-body">
@@ -20,44 +23,51 @@
     <div class="right-body">
         <div class="info-banner">
             <p>Looking for fresh, local produce to nourish your family?
-                Look no further than Red Barn Farm. We are a family-owned farm in 
-            the Carlisle area producing delicious and nutritious foods for our community
-             to enjoy. Sign up for a CSA (Community-Supported Agriculture) account today to get fresh produce at your doorstep.
+                Look no further than Red Barn Farm, a family-owned farm in 
+            the heart of Perry County. Sign up for a CSA account today to get fresh produce at your doorstep.
             </p>
             <br>
-            <p>Your family will thank you!</p>
+            <p><em>Your family will thank you.</em></p>
         </div>
         <div class="form-section">
 
-            <form action="" method="get">
+            <form action="" method="get" id="signup-form">
                 <div class="input-area">
                     <p>Let's do this!</p>
-
-                    <label for="fname">FIRST NAME</label>
-                    <input type="text" id="fname" name="first-name" />
-                
-                    <label for="lname">LAST NAME</label>
-                    <input type="text" id="lname" name="last-name" />
-
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email" />
-
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" name="phone" />
-
-                    <label for="pwd">PASSWORD</label>
-                    <input type="password" id="pwd" name="password" />
-
-                    <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-pwd" name="confirm-password" />
-
-                    <button type="submit">Create Account</button>
-
+                    <ul>
+                        <li>
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname" name="first-name" />
+                        </li>
+                        <li>
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" id="lname" name="last-name" />
+                        </li>
+                        <li>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" />
+                        </li>
+                        <li>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" />
+                        </li>
+                        <li>
+                            <label for="pwd">PASSWORD</label>
+                            <input type="password" id="pwd" name="password" />
+                        </li>
+                        <li>
+                            <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-pwd" name="confirm-password" />
+                        </li>
+                    </ul>
                 </div>
             </form>
         </div>
+        <div class="button-section">
+            <button type="submit" form="signup-form">Create Account</button>
+        </div>
         <div class="login-section">
-            <p>Already have an account? Log in</p>
+            <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
 </body>

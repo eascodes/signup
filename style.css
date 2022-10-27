@@ -8,6 +8,9 @@
 
 body {
     display: flex;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .left-body {
@@ -15,17 +18,29 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 33%;
+    width: 33vw;
     height: 100vh;
 }
 
 .right-body {
     background-color: rgb(239, 239, 239);
-    width: 67%;
+    width: 67vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+}
+
+.info-banner,
+.login-section,
+.button-section,
+form {
+    /* background-color: green; */
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+.info-banner {
+    padding-top: 90px;
+    padding-bottom: 40px;
 }
 
 /* LOGO */
@@ -51,15 +66,53 @@ h1 {
     padding: 1rem;
 }
 
-/* PARAGRAPH STYLING */
-
-p {
-    font-family: sans-serif;
-}
-
 /* FORM STYLING */
 
 form {
     background-color: white;
-    width: 67vw;
+    box-shadow: 3px 3px 3px #c2c2c2;
+}
+
+input {
+    box-sizing: border-box; 
+} 
+
+ul {
+    width: 100%;
+}
+ul li {
+    width: 49%;
+    display: inline-block;
+}
+
+ul li > * {
+    width: 100%;
+}
+
+/* BUTTON STYLING */
+
+button {
+  background-color: #596D48; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #c2c2c2;
+  margin-top: 30px;
+}
+
+/* LOGIN SECTION STYLING */
+
+.login-section {
+    font-weight: 400px;
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+
+a {
+    color: #596D48;
 }
