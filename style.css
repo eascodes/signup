@@ -140,7 +140,7 @@ label {
 /* BUTTON STYLING */
 
 button {
-  background-color: #596D48; /* Green */
+  background-color: #596D48;
   border: none;
   color: white;
   padding: 10px 35px;
@@ -153,6 +153,13 @@ button {
   margin-top: 30px;
 }
 
+button:hover {
+    color: #596D48;
+    background-color: white;
+    cursor: pointer;
+
+}
+
 /* LOGIN SECTION STYLING */
 
 .login-section {
@@ -161,6 +168,10 @@ button {
     margin-top: 30px;
 }
 
-a {
+.login-section a {
     color: #596D48;
+}
+
+.login-section a:hover {
+    text-decoration: underline;
 }
